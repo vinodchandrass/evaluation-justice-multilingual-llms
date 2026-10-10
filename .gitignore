@@ -1,0 +1,8 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.key
+*.pem
+.DS_Store
+Thumbs.db
+reviewer_private/

@@ -1,0 +1,20 @@
+PAPER C — STEP 22: PRE-SCORING STATISTICAL ANALYSIS PLAN
+Date: 2026-10-09
+
+UNIT AND DENOMINATOR
+1. Complete-case model matching: 1,218 item x condition x replicate triplets, three model outputs per triplet.
+2. Primary analysis population: all 3,654 model outputs, with item/condition/replicate identifiers preserved.
+3. Sensitivity population: 768 triplets (2,304 model outputs) with no model reaching its own generation limit.
+4. Descriptive incidence of generation-limit hits by model x condition x task x language. Distinct token budgets (M2R/M3R 256; M5 2,048) prohibit causal model-quality inference from hit-rate differences.
+
+ANALYSIS AFTER VALIDATED SCORING
+A. Task-specific outcomes only: correctness/completeness (A,B,D); entailment (B,C2); semantic fidelity (C); uncertainty quality (E); language retention and fallback (F, secondary A-E); cultural adequacy (D). No invented pooled accuracy across incompatible rubrics.
+B. Use matched comparisons on the same item x condition x replicate keys. For binary validated outcomes, compare paired discordance and report paired confidence intervals; for ordinal outcomes use matched ordinal analysis or cluster bootstrap. Avoid treating three replicates of the same item as independent samples.
+C. Use item-level clustered bootstrap (stratified by language and task when estimating stratified quantities), resampling all replicates/conditions together per item; report 95% uncertainty intervals. Language-level heterogeneity and unequal denominators should be explicit.
+D. Primary comparisons use all matched outputs, with limit-hit status described. Sensitivity 1: matched no-limit-hit triplets. Sensitivity 2: within-model compare outcomes by hit status, interpreted as descriptive and selection-confounded. Sensitivity 3: condition/task/language stratification. Do not claim equal compute budgets.
+E. Report paired contrasts C1 vs C0 and C3 vs C1 only where the same item is in both conditions; C2 comparisons require matching the item and frozen evidence packet. Do not extrapolate condition effects to items not assigned that condition.
+F. Multiplicity: predeclare primary endpoints and comparisons before inferential tests. Apply Holm adjustment to a declared family of primary model contrasts; label other comparisons exploratory.
+G. Missing or non-adjudicable scores remain missing, never converted to zero. Report denominator, missingness and adjudication status per endpoint. Use validated native judgments for naturalness/cultural fidelity; earlier translation-review scores are not response-review scores.
+
+CURRENT STATUS
+No formal independent human scoring of generated model responses; no validated model rankings or p-values. This plan is a preregistration-style analysis specification, not a claim of completed inferential analysis.

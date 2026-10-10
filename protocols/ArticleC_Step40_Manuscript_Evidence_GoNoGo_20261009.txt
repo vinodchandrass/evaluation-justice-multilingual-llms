@@ -1,0 +1,13 @@
+PAPER C — STEP 40 EVALUATION READINESS / GO-NO-GO
+Current design: 180 frozen benchmark items; nine languages; three models; 3,654 responses; 1,218 fully matched triplets. The 54-case blinded subset is purposively selected and cannot estimate benchmark-wide accuracy.
+54-case status: 16 source-supported narrow factual gates; 4 source-supported but semantic inspection pending; 21 deferred native-language cases; 13 other source-verification-pending cases. No independently validated final response-quality scores.
+CAN REPORT (descriptively, subject to master-manifest cross-check): design, model and condition coverage, matched response counts, token-limit diagnostics with different model caps explicitly noted, missingness and reference-screening diagnostics, source verification process, qualitative examples labeled exploratory.
+DO NOT REPORT YET: overall accuracy, calibrated quality scores, language rankings, model superiority, statistical significance of model quality, expert-validated response outcomes, population generalizations from 54 purposively selected cases.
+MINIMUM COMPLETION PATH:
+A. Freeze scoring manual, model-blind response IDs, source-citation audit, and assessor independence requirements.
+B. Complete exact source checks for 13 source-first cases without source support; inspect 4 source-supported but unresolved response semantics.
+C. Independently adjudicate 16 narrow factual-gate cases, preserving extra-claim, language-retention, and truncation caveats.
+D. For 21 native-deferred cases, use existing prompt/translation reviews only as contextual evidence; ask experts to evaluate model responses only for genuinely unresolved language-dependent decisions. Obtain documented independent judgments if publication claims require them.
+E. For population-level model comparisons, define and execute a representative scoring design across the frozen 1,218 triplets, including paired uncertainty and inter-rater agreement. The purposive 54 cases alone are insufficient.
+F. Reconcile scoring decisions with preregistered rubric, report missingness, cap effects, and uncertainty; only then unblind and compute model comparisons.
+DECISION: NO-GO for validated comparative performance claims. GO for writing Methods and non-evaluative execution/provenance results, with numerical counts checked against master files. No new inference runs indicated by this audit.
