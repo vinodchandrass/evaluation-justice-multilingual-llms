@@ -1,0 +1,15 @@
+{
+    "audit_name":  "Paper C Step 117 Sampling Integrity Audit",
+    "benchmark_items":  180,
+    "sampled_triplets":  180,
+    "unique_triplet_ids":  180,
+    "distinct_sampled_items":  118,
+    "scoring_responses":  540,
+    "unique_response_ids":  540,
+    "missing_triplet_mappings":  0,
+    "missing_reference_mappings":  0,
+    "task_mismatches":  0,
+    "language_mismatches":  0,
+    "primary_scoring_completed":  0,
+    "reference_assessment_completed":  0
+}
